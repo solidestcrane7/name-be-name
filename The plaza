@@ -1872,6 +1872,76 @@ game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn:FireServer
     end)
     
 
+ --Anti stuff:
+game:service('RunService').Stepped:connect(function()
+        
+        local d = Instance.new('RemoteEvent',game:service('ServerScriptService'))
+        local g = {}
+        function getrs()
+            local d = {
+                'i like coffee',
+                'You Thot LOL',
+                'remote spy kinda bad man',
+                'did you know this drops your fps?',
+                'Dummy',
+                'chickenNuggets',
+                'i like coffee',
+                'You Thot LOL',
+                'remote spy kinda bad man',
+                'did you know this drops your fps?',
+                'Dummy',
+                'chickenNuggets','i like coffee',
+                'You Thot LOL',
+                'remote spy kinda bad man',
+                'did you know this drops your fps?',
+                'Dummy',
+                'chickenNuggets','i like coffee',
+                'You Thot LOL',
+                'remote spy kinda bad man',
+                'did you know this drops your fps?',
+                'Dummy',
+                'chickenNuggets','i like coffee',
+                'You Thot LOL',
+                'remote spy kinda bad man',
+                'did you know this drops your fps?',
+                'Dummy',
+                'chickenNuggets','i like coffee',
+                'You Thot LOL',
+                'remote spy kinda bad man',
+                'did you know this drops your fps?',
+                'Dummy',
+                'chickenNuggets','i like coffee',
+                'You Thot LOL',
+                'remote spy kinda bad man',
+                'did you know this drops your fps?',
+                'Dummy',
+                'chickenNuggets',
+            }
+            return d[math.random(1,#d)]
+        end
+        for a=1,200 do
+            table.insert(g,{{{{{{{getrs()}}}}}}})
+        end
+        d:FireServer(g)
+        d:Destroy()
+        
+end)
+
+--Anti Dex
+while true do
+    wait(10)
+game.CoreGui.ChildAdded:Connect(function(k)
+    local s = k:GetChildren()
+    for i,v in pairs(s) do
+       if v.Name == "SideMenu" or v.Name == "SettingsPanel" or v.Name == "ExplorerPanel" or v.Name == "PropertiesFrame" then
+        game:Shutdown()
+           end
+    end
+    return 
+    end)
+end
+
+
 
  wait(600)
     local function callback(Text)
