@@ -1,5 +1,86 @@
-if game:service('Players').LocalPlayer.UserId == 3711413707 or 1342756249 or 1115062717 then
+
+
+
+
+--          _____                    _____                _____                    _____                           _______                   _____                    _____          
+--         /\    \                  /\    \              /\    \                  /\    \                         /::\    \                 /\    \                  /\    \         
+--        /::\    \                /::\    \            /::\    \                /::\    \                       /::::\    \               /::\____\                /::\    \        
+--       /::::\    \              /::::\    \           \:::\    \              /::::\    \                     /::::::\    \             /::::|   |               /::::\    \       
+--      /::::::\    \            /::::::\    \           \:::\    \            /::::::\    \                   /::::::::\    \           /:::::|   |              /::::::\    \      
+--     /:::/\:::\    \          /:::/\:::\    \           \:::\    \          /:::/\:::\    \                 /:::/~~\:::\    \         /::::::|   |             /:::/\:::\    \     
+--    /:::/__\:::\    \        /:::/__\:::\    \           \:::\    \        /:::/__\:::\    \               /:::/    \:::\    \       /:::/|::|   |            /:::/__\:::\    \    
+--   /::::\   \:::\    \      /::::\   \:::\    \          /::::\    \      /::::\   \:::\    \             /:::/    / \:::\    \     /:::/ |::|   |           /::::\   \:::\    \   
+--  /::::::\   \:::\    \    /::::::\   \:::\    \        /::::::\    \    /::::::\   \:::\    \           /:::/____/   \:::\____\   /:::/  |::|   | _____    /::::::\   \:::\    \  
+-- /:::/\:::\   \:::\____\  /:::/\:::\   \:::\    \      /:::/\:::\    \  /:::/\:::\   \:::\    \         |:::|    |     |:::|    | /:::/   |::|   |/\    \  /:::/\:::\   \:::\    \ 
+--/:::/  \:::\   \:::|    |/:::/  \:::\   \:::\____\    /:::/  \:::\____\/:::/__\:::\   \:::\____\        |:::|____|     |:::|    |/:: /    |::|   /::\____\/:::/__\:::\   \:::\____\
+--\::/   |::::\  /:::|____|\::/    \:::\  /:::/    /   /:::/    \::/    /\:::\   \:::\   \::/    /         \:::\    \   /:::/    / \::/    /|::|  /:::/    /\:::\   \:::\   \::/    /
+-- \/____|:::::\/:::/    /  \/____/ \:::\/:::/    /   /:::/    / \/____/  \:::\   \:::\   \/____/           \:::\    \ /:::/    /   \/____/ |::| /:::/    /  \:::\   \:::\   \/____/ 
+--       |:::::::::/    /            \::::::/    /   /:::/    /            \:::\   \:::\    \                \:::\    /:::/    /            |::|/:::/    /    \:::\   \:::\    \     
+--       |::|\::::/    /              \::::/    /   /:::/    /              \:::\   \:::\____\                \:::\__/:::/    /             |::::::/    /      \:::\   \:::\____\    
+--       |::| \::/____/               /:::/    /    \::/    /                \:::\   \::/    /                 \::::::::/    /              |:::::/    /        \:::\   \::/    /    
+--       |::|  ~|                    /:::/    /      \/____/                  \:::\   \/____/                   \::::::/    /               |::::/    /          \:::\   \/____/     
+--       |::|   |                   /:::/    /                                 \:::\    \                        \::::/    /                /:::/    /            \:::\    \         
+--       \::|   |                  /:::/    /                                   \:::\____\                        \::/____/                /:::/    /              \:::\____\        
+--        \:|   |                  \::/    /                                     \::/    /                         ~~                      \::/    /                \::/    /        
+--         \|___|                   \/____/                                       \/____/                                                   \/____/                  \/____/         
+                                                                                                                                                                                   
+
+
+local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = "Checking userID... ";
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
+
+
+if game:service('Players').LocalPlayer.UserId == 1115062717 or game:service('Players').LocalPlayer.UserId == 146182710 or game:service('Players').LocalPlayer.UserId == 1342756249 or game:service('Players').LocalPlayer.UserId == 3699780033 or game:service('Players').LocalPlayer.UserId == 3728564242 or game:service('Players').LocalPlayer.UserId == 1427477955 then
+   
+
+
+ if true then
+        local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = "ID accepted";
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+end
+
+   
     if game.PlaceId == 347401822 then
+        
+                local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = "\nGame selected: The Plaza \nGameId: 347401822";
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
 --ver2 = '6.4.2'
 ver2 = ' | The Plaza'
 
@@ -12,7 +93,7 @@ local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
  Title = "▀▄『R』『1』▄▀";
- Text = "Welcome";
+ Text = "Welcome \n''Nostaliga at its finest''";
  Icon = "rbxassetid://10223592622";
  Duration = 10;
  Callback = NotificationBindable;
@@ -33,14 +114,17 @@ local SP = Window:NewTab("Special")
 local CS = Window:NewTab("Credits/Settings")
 
 
+
 local player = PP:NewSection("Player")
 local tp = TP:NewSection("Teleport")
 local World = WO:NewSection("World")
+
 local tags = WO:NewSection("Chat tags")
 local shop = SO:NewSection("Shop")
 local shop2 = SO:NewSection("Buy Car/Boat/Helicopter")
 local shop3 = SO:NewSection("Spawn Car/Boat")
 local spec = SP:NewSection("Special")
+local en = SP:NewSection("Enemies")
 local set = CS:NewSection("Settings")
 local cre = CS:NewSection("Credit")
 --Player
@@ -866,6 +950,91 @@ game.StarterGui:SetCore("SendNotification",  {
 
 end)
 
+World:NewTextBox("Claim Condo number", "", function(Number)
+
+game:GetService("ReplicatedStorage").AptStats.Remotes.GetRoom:FireServer(Number);
+ 
+    local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = ("Claimed number: "..Number);
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
+end)
+
+World:NewTextBox("Kicked Condo number", "", function(Number)
+
+game:GetService("ReplicatedStorage").AptStats.Remotes.KickRequest:FireServer(Number);
+ 
+    local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
+end
+end
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = ("Kicked number: "..Number);
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+
+end)
+
+  local value = false
+World:NewToggle("Higher all casino jackpots", "You are just nice at this point...", function(s)
+  value = s
+    if s then
+        local d
+        d = game:service('RunService').Stepped:connect(function()
+            if not value then
+                return d:Disconnect()
+            end
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("1", 0)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("2", 0)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("3", 0)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("4", 0)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("5", 0)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("6", 0)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("7", 0)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("8", 0)
+end)
+end
+end)
+
+  local value = false
+World:NewToggle("Lower all casino jackpots", "You are just mean at this point...", function(s)
+  value = s
+    if s then
+        local d
+        d = game:service('RunService').Stepped:connect(function()
+            if not value then
+                return d:Disconnect()
+            end
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("1", -1)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("2", -1)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("3", -1)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("4", -1)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("5", -1)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("6", -1)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("7", -1)
+game:GetService("ReplicatedStorage").ServerStats.Jackpots.ChangeJackpots:FireServer("8", -1)
+end)
+end
+end)
+
+
 --tags
 
  local value = false
@@ -1380,6 +1549,19 @@ game:GetService("ReplicatedStorage").AptStats.Remotes.BuyItem:FireServer(A_1)
  A_1 = "Mini Me"
 game:GetService("ReplicatedStorage").AptStats.Remotes.BuyItem:FireServer(A_1)
 
+ A_1 = "Slot Machine"
+game:GetService("ReplicatedStorage").AptStats.Remotes.BuyItem:FireServer(A_1)
+
+ A_1 = "Rock"
+game:GetService("ReplicatedStorage").AptStats.Remotes.BuyItem:FireServer(A_1)
+
+ A_1 = "Camp Fire"
+game:GetService("ReplicatedStorage").AptStats.Remotes.BuyItem:FireServer(A_1)
+
+ A_1 = "Premium Trophy"
+game:GetService("ReplicatedStorage").AptStats.Remotes.BuyItem:FireServer(A_1)
+
+
  A_1 = "Rate 1 Was here"
 game:GetService("ReplicatedStorage").AptStats.Remotes.BuyItem:FireServer(A_1)
 
@@ -1551,8 +1733,36 @@ game.StarterGui:SetCore("SendNotification",  {
 })
 end)
 
+en:NewTextBox("Rate target inf", "Rates their condo inf", function(user)
+    user = string.lower(user)
+    for _, v in pairs(game.Players:GetPlayers()) do
+        if string.find(string.lower(v.Name), user) or string.find(string.lower(v.DisplayName), user)  then
+            targetted = tostring(v.Name)
+        end
+    end
+game:GetService("ReplicatedStorage").ServerStats.RateCondo:FireServer(math.huge, (targetted))
+end)
+
+en:NewTextBox("Rate target 1", "Rates their condo 1", function(user)
+    user = string.lower(user)
+    for _, v in pairs(game.Players:GetPlayers()) do
+        if string.find(string.lower(v.Name), user) or string.find(string.lower(v.DisplayName), user)  then
+            targetted = tostring(v.Name)
+        end
+    end
+game:GetService("ReplicatedStorage").ServerStats.RateCondo:FireServer(1, (targetted))
+end)
 
 
+en:NewTextBox("Rate target -1", "Rates their condo 1", function(user)
+    user = string.lower(user)
+    for _, v in pairs(game.Players:GetPlayers()) do
+        if string.find(string.lower(v.Name), user) or string.find(string.lower(v.DisplayName), user)  then
+            targetted = tostring(v.Name)
+        end
+    end
+game:GetService("ReplicatedStorage").ServerStats.RateCondo:FireServer(-1, (targetted))
+end)
 
 --Credit/setting
 
@@ -1645,9 +1855,8 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP
         Text = "\nR1: Rate 1 Owner In The Server                                                                              Name: "..tostring(v.Name);
         Duration = 15;
     })
-local A_1 = "Hi x0x ❤️"
-game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn
-:FireServer(A_1)
+
+--game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn:FireServer("Hi x0x ❤️")
         end
     end
     
@@ -1663,6 +1872,8 @@ game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn
     end)
     
 
+
+ wait(600)
     local function callback(Text)
  if Text == "Yes" then
       local function callback(Text)
@@ -1752,7 +1963,6 @@ game.StarterGui:SetCore("SendNotification",  {
 
 end
 end
-
 
 
 
