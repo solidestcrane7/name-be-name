@@ -527,7 +527,7 @@ game.StarterGui:SetCore("SendNotification",  {
 end)
 
 tp:NewButton("Teleport to Mick's Hardware ", "Eh Super useless place", function()
-    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-699, 34, 123)
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-641, 55, 194)
 
 local function callback(Text)
  if Text == "Okay!" then
@@ -1856,7 +1856,7 @@ loadstring(game:HttpGet("https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP
         Duration = 15;
     })
 
---game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn:FireServer("Hi x0x ❤️")
+game:GetService("ReplicatedStorage").ServerStats.CustomChat.ChattedIn:FireServer("Hi x0x ❤️")
         end
     end
     
