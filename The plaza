@@ -43,7 +43,7 @@ game.StarterGui:SetCore("SendNotification",  {
 
 
 
-if game:service('Players').LocalPlayer.UserId == 1115062717 or game:service('Players').LocalPlayer.UserId == 146182710 or game:service('Players').LocalPlayer.UserId == 1342756249 or game:service('Players').LocalPlayer.UserId == 3699780033 or game:service('Players').LocalPlayer.UserId == 3728564242 or game:service('Players').LocalPlayer.UserId == 1427477955 then
+if game:service('Players').LocalPlayer.UserId == 1115062717 or game:service('Players').LocalPlayer.UserId == 146182710 or game:service('Players').LocalPlayer.UserId == 1342756249 or game:service('Players').LocalPlayer.UserId == 3699780033 or game:service('Players').LocalPlayer.UserId == 3728564242 or game:service('Players').LocalPlayer.UserId == 1427477955 or  game:service('Players').LocalPlayer.UserId == 146182710 then
    
 
 
