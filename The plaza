@@ -1,4 +1,15 @@
 
+    ----------------------------------- BANLIST
+---- Gottabigcarnamed (1265448855)  
+if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
+
+wait(0)
+game.Players.LocalPlayer:Kick("You've been Blacklisted from Rate 1. Fuck you")
+screenGui:Destroy()
+end
+
+ -- Script starting / checking
+
 if _G.key == 'qVG4qzgYtY' then
 
 local function callback(Text)
@@ -33,7 +44,7 @@ game.StarterGui:SetCore("SendNotification",  {
  Callback = NotificationBindable;
 })
 
-if game.PlaceId == 347401822 or game.PlaceId == 0 or game.PlaceId == 0  then
+if game.PlaceId == 347401822 or game.PlaceId == 6700823483 or game.PlaceId == 5394388896  then
 local function callback(Text)
  if Text == "Okay!" then
   print ("Answer")
@@ -72,6 +83,36 @@ if game.PlaceId == 347401822 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))()
 end
 
+-- An Unoriginal Universe
+if game.PlaceId == 5394388896 then
+    
+    local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = "The script for this game isn't finished yet";
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+--loadstring(game:HttpGet(""))()
+end
+
+-- Idiotic Investing
+if game.PlaceId == 6700823483 then
+    
+    local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = "The script for this game isn't finished yet";
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+--loadstring(game:HttpGet(""))()
+end
+
 -- Future game
 if game.PlaceId == 0 then
 loadstring(game:HttpGet(""))()
@@ -93,15 +134,8 @@ game.StarterGui:SetCore("SendNotification",  {
  Duration = 10;
  Callback = NotificationBindable;
 })
-        end
 
------------------------------------ BANLIST
----- Gottabigcarnamed (1265448855)   
-if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
+  end  
 
-wait(0)
-game.Players.LocalPlayer:Kick("You've been Blacklisted from Rate 1. Fuck you")
-screenGui:Destroy()
-end
 
 
