@@ -1,6 +1,3 @@
-_G.key = "qVG4qzgYtY"
-
-
 ----------------------------------- BANLIST
 ---- Gottabigcarnamed (1265448855)  
 if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
