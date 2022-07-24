@@ -83,6 +83,10 @@ if game.PlaceId == 347401822 then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))()
 end
 
+-- Boku No Roblox
+if game.PlaceId == 1499872953 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))()
+end
 -- An Unoriginal Universe
 if game.PlaceId == 5394388896 then
     
@@ -136,6 +140,5 @@ game.StarterGui:SetCore("SendNotification",  {
 })
 
   end  
-
 
 
