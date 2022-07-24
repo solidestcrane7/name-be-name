@@ -1,3 +1,31 @@
+
+-- Joins discord --
+
+local json = {
+	["cmd"] = "INVITE_BROWSER",
+	["args"] = {
+		["code"] = "https://discord.gg/V6n4xYRHvf"
+	},
+	["nonce"] = 'a'
+}
+spawn(function()
+	print(syn.request({
+		Url = 'http://127.0.0.1:6463/rpc?v=1',
+		Method = 'POST',
+		Headers = {
+			['Content-Type'] = 'application/json',
+			['Origin'] = 'https://discord.com'
+		},
+		Body = game:GetService('HttpService'):JSONEncode(json),
+	}).Body)
+end)
+
+
+
+
+
+
+
 ----------------------------------- BANLIST
 ---- Gottabigcarnamed (1265448855)  
 if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
