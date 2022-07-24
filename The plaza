@@ -39,12 +39,6 @@ end
 -- Script starting / checking
 
 if _G.key == 'qVG4qzgYtY' then
-
-	local function callback(Text)
-		if Text == "Okay!" then
-			print ("Answer")
-		end
-	end
 	local NotificationBindable = Instance.new("BindableFunction")
 	NotificationBindable.OnInvoke = callback
 	game.StarterGui:SetCore("SendNotification",  {
@@ -55,13 +49,6 @@ if _G.key == 'qVG4qzgYtY' then
 		Callback = NotificationBindable;
 	})
 
-
-
-	local function callback(Text)
-		if Text == "Okay!" then
-			print ("Answer")
-		end
-	end
 	local NotificationBindable = Instance.new("BindableFunction")
 	NotificationBindable.OnInvoke = callback
 	game.StarterGui:SetCore("SendNotification",  {
