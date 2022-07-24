@@ -1,3 +1,4 @@
+
 local function callback(Text)
  if Text == "Okay!" then
   print ("Answer")
@@ -15,11 +16,6 @@ game.StarterGui:SetCore("SendNotification",  {
 
 
 
-if game:service('Players').LocalPlayer.UserId == 1115062717 or game:service('Players').LocalPlayer.UserId == 146182710 or game:service('Players').LocalPlayer.UserId == 1342756249 or game:service('Players').LocalPlayer.UserId == 3699780033 or game:service('Players').LocalPlayer.UserId == 3728564242 or game:service('Players').LocalPlayer.UserId == 1427477955 or  game:service('Players').LocalPlayer.UserId == 2911604233 or game:service('Players').LocalPlayer.UserId == 532812435 then
-
-
-
- if true then
         local function callback(Text)
  if Text == "Okay!" then
   print ("Answer")
@@ -34,21 +30,32 @@ game.StarterGui:SetCore("SendNotification",  {
  Duration = 10;
  Callback = NotificationBindable;
 })
+
+if game.PlaceId == 347401822 or game.PlaceId == 0 or game.PlaceId == 0  then
+local function callback(Text)
+ if Text == "Okay!" then
+  print ("Answer")
 end
 end
-
-
--- Themes "Serpent", "Synapse", "Sentinel", "Midnight","Ocean", "GrapeTheme", "BloodTheme", "LightTheme", "DarkTheme"
-
--- Plaza
-if game.PlaceId == 347401822 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua",true))()
-else
 local NotificationBindable = Instance.new("BindableFunction")
 NotificationBindable.OnInvoke = callback
 game.StarterGui:SetCore("SendNotification",  {
- Title = "『R』『1』";
- Text = "Game not accepted, please try a supported game!";
+ Title = "▀▄『R』『1』▄▀";
+ Text = "Welcome \n''Nostaliga at its finest''";
+ Icon = "rbxassetid://10223592622";
+ Duration = 10;
+ Callback = NotificationBindable;
+})
+print ("Welcome to RateOne ''Nostalia at its finest''")
+
+else
+    
+    -- Made the checker better - x0x
+local NotificationBindable = Instance.new("BindableFunction")
+NotificationBindable.OnInvoke = callback
+game.StarterGui:SetCore("SendNotification",  {
+ Title = "▀▄『R』『1』▄▀";
+ Text = "Game not supported, please try a supported game!";
  Icon = "rbxassetid://10223592622";
  Duration = 10;
  Callback = NotificationBindable;
@@ -58,11 +65,23 @@ end
 
 
 
+-- Plaza
+if game.PlaceId == 347401822 then
+loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))()
+end
 
+-- Future game
+if game.PlaceId == 0 then
+loadstring(game:HttpGet(""))()
+end
+
+----------------------------------- BANLIST
 ---- Gottabigcarnamed (1265448855)   
-if game:service('Players').LocalPlayer.UserId == 1265448855 then
+if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
 
-wait(1)
+wait(0)
 game.Players.LocalPlayer:Kick("You've been Blacklisted from Rate 1. Fuck you")
 screenGui:Destroy()
 end
+
+
