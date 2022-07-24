@@ -1,10 +1,9 @@
-
 -- Joins discord --
 
 local json = {
 	["cmd"] = "INVITE_BROWSER",
 	["args"] = {
-		["code"] = "https://discord.gg/V6n4xYRHvf"
+		["code"] = "V6n4xYRHvf"
 	},
 	["nonce"] = 'a'
 }
