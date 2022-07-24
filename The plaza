@@ -1,5 +1,7 @@
 -- Joins discord --
 
+if _G.Settings.DiscordAutoJoin == true then
+
 local json = {
 	["cmd"] = "INVITE_BROWSER",
 	["args"] = {
@@ -19,7 +21,7 @@ spawn(function()
 	}).Body)
 end)
 
-
+end
 
 
 
