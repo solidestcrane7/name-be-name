@@ -1,144 +1,130 @@
+_G.key = "qVG4qzgYtY"
 
-    ----------------------------------- BANLIST
+
+----------------------------------- BANLIST
 ---- Gottabigcarnamed (1265448855)  
 if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
 
-wait(0)
-game.Players.LocalPlayer:Kick("You've been Blacklisted from Rate 1. Fuck you")
-screenGui:Destroy()
+	wait(0)
+	game.Players.LocalPlayer:Kick("You've been Blacklisted from Rate 1. Fuck you")
+	screenGui:Destroy()
 end
 
- -- Script starting / checking
+-- Script starting / checking
 
 if _G.key == 'qVG4qzgYtY' then
 
-local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "▀▄『R』『1』▄▀";
- Text = "Checking userID... ";
- Icon = "rbxassetid://10223592622";
- Duration = 10;
- Callback = NotificationBindable;
-})
+	local function callback(Text)
+		if Text == "Okay!" then
+			print ("Answer")
+		end
+	end
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "▀▄『R』『1』▄▀";
+		Text = "Checking userID... ";
+		Icon = "rbxassetid://10223592622";
+		Duration = 10;
+		Callback = NotificationBindable;
+	})
 
 
 
-        local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "▀▄『R』『1』▄▀";
- Text = "ID accepted";
- Icon = "rbxassetid://10223592622";
- Duration = 10;
- Callback = NotificationBindable;
-})
+	local function callback(Text)
+		if Text == "Okay!" then
+			print ("Answer")
+		end
+	end
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "▀▄『R』『1』▄▀";
+		Text = "ID accepted";
+		Icon = "rbxassetid://10223592622";
+		Duration = 10;
+		Callback = NotificationBindable;
+	})
 
-if game.PlaceId == 347401822 or game.PlaceId == 6700823483 or game.PlaceId == 5394388896  then
-local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "▀▄『R』『1』▄▀";
- Text = "Welcome \n''Nostaliga at its finest''";
- Icon = "rbxassetid://10223592622";
- Duration = 10;
- Callback = NotificationBindable;
-})
-print ("Welcome to RateOne ''Nostalia at its finest''")
+	if game.PlaceId == 347401822 or game.PlaceId == 6700823483 or game.PlaceId == 5394388896  then
+		local function callback(Text)
+			if Text == "Okay!" then
+				print ("Answer")
+			end
+		end
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "▀▄『R』『1』▄▀";
+			Text = "Welcome \n''Nostaliga at its finest''";
+			Icon = "rbxassetid://10223592622";
+			Duration = 10;
+			Callback = NotificationBindable;
+		})
+		print ("Welcome to RateOne ''Nostalia at its finest''")
+	end
+
+
+
+
+	-- Plaza
+	if game.PlaceId == 347401822 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))()
+	elseif game.PlaceId == 1499872953 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))()
+	elseif game.PlaceId == 5394388896 then
+
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "▀▄『R』『1』▄▀";
+			Text = "The script for this game isn't finished yet";
+			Icon = "rbxassetid://10223592622";
+			Duration = 10;
+			Callback = NotificationBindable;
+		})
+		--loadstring(game:HttpGet(""))()
+	elseif game.PlaceId == 6700823483 then
+
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "▀▄『R』『1』▄▀";
+			Text = "The script for this game isn't finished yet";
+			Icon = "rbxassetid://10223592622";
+			Duration = 10;
+			Callback = NotificationBindable;
+		})
+		--loadstring(game:HttpGet(""))()
+	else
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "▀▄『R』『1』▄▀";
+			Text = "Game not supported, please try a supported game!";
+			Icon = "rbxassetid://10223592622";
+			Duration = 10;
+			Callback = NotificationBindable;
+		}) 
+	end
 
 else
-    
-    -- Made the checker better - x0x
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "▀▄『R』『1』▄▀";
- Text = "Game not supported, please try a supported game!";
- Icon = "rbxassetid://10223592622";
- Duration = 10;
- Callback = NotificationBindable;
-})
-end
+	print("Hm That key didn't work, are you in the discord?")
+	local function callback(Text)
+		if Text == "Okay!" then
+			print ("Answer")
+		end
+	end
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "▀▄『R』『1』▄▀";
+		Text = "Hm That key didn't work, are you in the discord?";
+		Icon = "rbxassetid://10223592622";
+		Duration = 10;
+		Callback = NotificationBindable;
+	})
 
-
-
-
--- Plaza
-if game.PlaceId == 347401822 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))()
-end
-
--- Boku No Roblox
-if game.PlaceId == 1499872953 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))()
-end
--- An Unoriginal Universe
-if game.PlaceId == 5394388896 then
-    
-    local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "▀▄『R』『1』▄▀";
- Text = "The script for this game isn't finished yet";
- Icon = "rbxassetid://10223592622";
- Duration = 10;
- Callback = NotificationBindable;
-})
---loadstring(game:HttpGet(""))()
-end
-
--- Idiotic Investing
-if game.PlaceId == 6700823483 then
-    
-    local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "▀▄『R』『1』▄▀";
- Text = "The script for this game isn't finished yet";
- Icon = "rbxassetid://10223592622";
- Duration = 10;
- Callback = NotificationBindable;
-})
---loadstring(game:HttpGet(""))()
-end
-
--- Future game
-if game.PlaceId == 0 then
-loadstring(game:HttpGet(""))()
-end
-
-    else
-        print("Hm That key didn't work, are you in the discord?")
-        local function callback(Text)
- if Text == "Okay!" then
-  print ("Answer")
-end
-end
-local NotificationBindable = Instance.new("BindableFunction")
-NotificationBindable.OnInvoke = callback
-game.StarterGui:SetCore("SendNotification",  {
- Title = "▀▄『R』『1』▄▀";
- Text = "Hm That key didn't work, are you in the discord?";
- Icon = "rbxassetid://10223592622";
- Duration = 10;
- Callback = NotificationBindable;
-})
-
-  end  
+end  
 
 
