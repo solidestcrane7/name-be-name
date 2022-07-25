@@ -86,17 +86,7 @@ if _G.key == 'qVG4qzgYtY' then
 	elseif game.PlaceId == 1499872953 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))()
 	elseif game.PlaceId == 5394388896 then
-
-		local NotificationBindable = Instance.new("BindableFunction")
-		NotificationBindable.OnInvoke = callback
-		game.StarterGui:SetCore("SendNotification",  {
-			Title = "▀▄『R』『1』▄▀";
-			Text = "The script for this game isn't finished yet";
-			Icon = "rbxassetid://10223592622";
-			Duration = 10;
-			Callback = NotificationBindable;
-		})
-		--loadstring(game:HttpGet(""))()
+		https://raw.githubusercontent.com/loss23/Jif3/main/Universe
 	elseif game.PlaceId == 6700823483 then
 
 		local NotificationBindable = Instance.new("BindableFunction")
