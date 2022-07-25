@@ -86,7 +86,7 @@ if _G.key == 'qVG4qzgYtY' then
 	elseif game.PlaceId == 1499872953 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))()
 	elseif game.PlaceId == 5394388896 then
-		https://raw.githubusercontent.com/loss23/Jif3/main/Universe
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Universe"))()
 	elseif game.PlaceId == 6700823483 then
 
 		local NotificationBindable = Instance.new("BindableFunction")
