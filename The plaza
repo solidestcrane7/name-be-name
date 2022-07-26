@@ -31,6 +31,10 @@ Gold = {
 	ElementColor = Color3.fromRGB(20, 20, 20)
 }
 
+if _G.Settings.Theme == "Gold" then
+	_G.Settings.Theme = Gold
+end
+
 ----------------------------------- BANLIST
 ---- Gottabigcarnamed (1265448855)  
 if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
