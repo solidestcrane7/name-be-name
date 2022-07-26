@@ -23,9 +23,13 @@ end)
 
 end
 
-
-
-
+local Gold = {
+	SchemeColor = Color3.fromRGB(255, 255, 127),
+	Background = Color3.fromRGB(255, 255, 0),
+	Header = Color3.fromRGB(255, 245, 134),
+	TextColor = Color3.fromRGB(255,255,255),
+	ElementColor = Color3.fromRGB(20, 20, 20)
+}
 
 ----------------------------------- BANLIST
 ---- Gottabigcarnamed (1265448855)  
