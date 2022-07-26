@@ -23,8 +23,8 @@ end)
 end
 
 ----------------------------------- BANLIST
----- Gottabigcarnamed (1265448855)  
-if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 0 then
+---- Gottabigcarnamed (1265448855)  and lablacaretheverybade(3743998626)
+if game:service('Players').LocalPlayer.UserId == 1265448855 or game:service('Players').LocalPlayer.UserId == 3743998626 then
 
 	wait(0)
 	game.Players.LocalPlayer:Kick("You've been Blacklisted from Rate 1. Fuck you")
