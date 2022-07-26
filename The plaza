@@ -85,6 +85,8 @@ if _G.key == 'WomenWithDicksMatter112' then
 	elseif game.PlaceId == 2098516465 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/RHS2"))()
 	elseif game.PlaceId == 6700823483 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/PenisEnlargementPills"))()
+	elseif game.PlaceId == 6700823483 then
 
 		local NotificationBindable = Instance.new("BindableFunction")
 		NotificationBindable.OnInvoke = callback
