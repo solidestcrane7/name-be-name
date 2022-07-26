@@ -23,7 +23,7 @@ end)
 
 end
 
-local Gold = {
+_G.Gold = {
 	SchemeColor = Color3.fromRGB(255, 255, 127),
 	Background = Color3.fromRGB(255, 255, 0),
 	Header = Color3.fromRGB(255, 245, 134),
