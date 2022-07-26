@@ -80,7 +80,6 @@ if _G.key == 'WomenWithDicksMatter112' then
 		print ("Welcome to RateOne ''Nostalia at its finest''")
 	end
 
-
 	-- Plaza
 	if game.PlaceId == 347401822 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))()
@@ -94,6 +93,8 @@ if _G.key == 'WomenWithDicksMatter112' then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/PenisEnlargementPills"))()
 	elseif game.PlaceId == 4924922222 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/SEX0XLMAOAIDSIHAVECANCER"))()
+	elseif game.PlaceId == 579955134 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/AutoSEXbattles"))()
 	else
 		local NotificationBindable = Instance.new("BindableFunction")
 		NotificationBindable.OnInvoke = callback
