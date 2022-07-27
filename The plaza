@@ -83,23 +83,23 @@ if _G.key == 'LoserIsAPretendSwitch123' then
 
 	-- Plaza
 	if game.PlaceId == 347401822 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Main.lua"))() -- Plaza
 	elseif game.PlaceId == 1499872953 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/sdafkoaajfsod"))() -- Boku No Roblox
 	elseif game.PlaceId == 5394388896 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Universe"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Universe"))() -- AUU
 	elseif game.PlaceId == 2098516465 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/RHS2"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/RHS2"))() -- RHS2
 	elseif game.PlaceId == 6700823483 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/PenisEnlargementPills"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/PenisEnlargementPills"))() -- Idiotic Investing
 	elseif game.PlaceId == 4924922222 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/SEX0XLMAOAIDSIHAVECANCER"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/SEX0XLMAOAIDSIHAVECANCER"))() -- Brookhaven
 	elseif game.PlaceId == 579955134 then
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/AutoSEXbattles"))()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/AutoSEXbattles"))() -- Auto Rap Battles
 	elseif game.PlaceId == 3403279477 then
 		game.Players.LocalPlayer:Kick("Die weirdo cunt, fuck off")
 	elseif game.PlaceId == 1537690962 then
-		loadstring(game:HttpGet("https://github.com/loss23/Jif3/blob/main/BeeCUMsimulator"))()
+		loadstring(game:HttpGet("https://github.com/loss23/Jif3/blob/main/BeeCUMsimulator"))() -- Bee Swarm Sim
 	else
 		local NotificationBindable = Instance.new("BindableFunction")
 		NotificationBindable.OnInvoke = callback
@@ -130,75 +130,3 @@ else
 	})
 
 end  
-
-
- --Anti stuff:
-game:service('RunService').Stepped:connect(function()
-        
-        local d = Instance.new('RemoteEvent',game:service('ServerScriptService'))
-        local g = {}
-        function getrs()
-            local d = {
-                'i like coffee',
-                'You Thot LOL',
-                'remote spy kinda bad man',
-                'did you know this drops your fps?',
-                'Dummy',
-                'chickenNuggets',
-                'i like coffee',
-                'You Thot LOL',
-                'remote spy kinda bad man',
-                'did you know this drops your fps?',
-                'Dummy',
-                'chickenNuggets','i like coffee',
-                'You Thot LOL',
-                'remote spy kinda bad man',
-                'did you know this drops your fps?',
-                'Dummy',
-                'chickenNuggets','i like coffee',
-                'You Thot LOL',
-                'remote spy kinda bad man',
-                'did you know this drops your fps?',
-                'Dummy',
-                'chickenNuggets','i like coffee',
-                'You Thot LOL',
-                'remote spy kinda bad man',
-                'did you know this drops your fps?',
-                'Dummy',
-                'chickenNuggets','i like coffee',
-                'You Thot LOL',
-                'remote spy kinda bad man',
-                'did you know this drops your fps?',
-                'Dummy',
-                'chickenNuggets','i like coffee',
-                'You Thot LOL',
-                'remote spy kinda bad man',
-                'did you know this drops your fps?',
-                'Dummy',
-                'chickenNuggets',
-            }
-            return d[math.random(1,#d)]
-        end
-        for a=1,200 do
-            table.insert(g,{{{{{{{getrs()}}}}}}})
-        end
-        d:FireServer(g)
-        d:Destroy()
-        
-end)
-
---Anti Dex
-while true do
-    wait(10)
-game.CoreGui.ChildAdded:Connect(function(k)
-    local s = k:GetChildren()
-    for i,v in pairs(s) do
-       if v.Name == "SideMenu" or v.Name == "SettingsPanel" or v.Name == "ExplorerPanel" or v.Name == "PropertiesFrame" then
-        game:Shutdown()
-           end
-    end
-    return 
-    end)
-end
-
-
