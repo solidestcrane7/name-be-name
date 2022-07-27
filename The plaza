@@ -95,6 +95,8 @@ if _G.key == 'WomenWithDicksMatter112' then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/SEX0XLMAOAIDSIHAVECANCER"))()
 	elseif game.PlaceId == 579955134 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/AutoSEXbattles"))()
+	elseif game.PlaceId == 3403279477 then
+		game.Players.LocalPlayer:Kick("Die weirdo cunt, fuck off")
 	else
 		local NotificationBindable = Instance.new("BindableFunction")
 		NotificationBindable.OnInvoke = callback
