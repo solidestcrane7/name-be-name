@@ -41,7 +41,7 @@ end
 
 -- Script starting / checking
 
-if _G.key == 'LoserIsAPretendSwitch123' then
+if _G.key == 'HerbertHasASmallPenis' then
 	local NotificationBindable = Instance.new("BindableFunction")
 	NotificationBindable.OnInvoke = callback
 	game.StarterGui:SetCore("SendNotification",  {
