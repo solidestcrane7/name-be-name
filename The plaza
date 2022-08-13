@@ -100,6 +100,8 @@ if _G.key == 'LoserIsAPretendSwitch123' then
 		game.Players.LocalPlayer:Kick("Die weirdo cunt, fuck off")
 	elseif game.PlaceId == 1537690962 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/BeeCUMsimulator"))() -- Bee Swarm Sim
+		elseif game.PlaceId == 4325400580 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Losersgaylmao"))() -- Army Tycoon
 	else
 		local NotificationBindable = Instance.new("BindableFunction")
 		NotificationBindable.OnInvoke = callback
