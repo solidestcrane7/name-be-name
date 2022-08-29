@@ -80,10 +80,6 @@ if _G.key == 'Sex0x' then
 		print ("Welcome to RateOne ''Nostalia at its finest''")
 	end
 
-if game:service('Players').LocalPlayer.UserId == 140716995 then
-if game.PlaceId == 6700823483 then
-loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Showcase1"))() -- Idiotic Investing
-else
 
 	-- Plaza
 	if game.PlaceId == 347401822 then
@@ -104,6 +100,8 @@ else
 		game.Players.LocalPlayer:Kick("Die weirdo cunt, fuck off")
 	elseif game.PlaceId == 1537690962 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/BeeCUMsimulator"))() -- Bee Swarm Sim
+		elseif game.PlaceId == 8798268679 then
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/crc"))() -- CRC
 		elseif game.PlaceId == 4325400580 then
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/loss23/Jif3/main/Losersgaylmao"))() -- Army Tycoon
 	else
