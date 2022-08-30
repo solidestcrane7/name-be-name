@@ -1,5 +1,4 @@
 
-
 -- Joins discord --
 if _G.Settings.DiscordAutoJoin == true then
 
@@ -43,7 +42,7 @@ end
 
 -- Script starting / checking
 
-if _G.key == 'Sex0x' then
+if _G.key == 'bbd98b933e1147d0ae' then
 	local NotificationBindable = Instance.new("BindableFunction")
 	NotificationBindable.OnInvoke = callback
 	game.StarterGui:SetCore("SendNotification",  {
@@ -117,6 +116,24 @@ if _G.key == 'Sex0x' then
 			Callback = NotificationBindable;
 		}) 
 	end
-	end
 
+
+else
+	print("Hm That key didn't work, are you in the discord?")
+	local function callback(Text)
+		if Text == "Okay!" then
+			print ("Answer")
+		end
+	end
+	local NotificationBindable = Instance.new("BindableFunction")
+	NotificationBindable.OnInvoke = callback
+	game.StarterGui:SetCore("SendNotification",  {
+		Title = "▀▄『R』『1』▄▀";
+		Text = "Hm That key didn't work, are you in the discord?";
+		Icon = "rbxassetid://10223592622";
+		Duration = 10;
+		Callback = NotificationBindable;
+	})
+
+end  
 
