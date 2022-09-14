@@ -25,4 +25,3 @@ else ---- INVALID THEME
 end
 
   local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
-local Window = OrionLib:MakeWindow({Name = "" ..name ..ICON, HidePremium = true, SaveConfig = true, ConfigFolder = "RATE_ONE_DATA", IntroEnabled = true, IntroText = "''Nostaliga at its finest''",IntroIcon = "http://www.roblox.com/asset/?id=10223592622", Icon = "http://www.roblox.com/asset/?id=10223592622"})
